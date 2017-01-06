@@ -8,7 +8,7 @@ public class PackageProblem {
 	public static void main(String[] args) {
 		int[] cost = new int[]{4,3,5,6,2,1};
 		int[] value = new int[]{10,100,43,4,102,1000};
-		int capacity = 20;
+		int capacity = 2;
 		
 		System.out.println(packagePro(cost, value, capacity));
 	}
