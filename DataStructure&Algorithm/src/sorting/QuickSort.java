@@ -20,7 +20,7 @@ public class QuickSort {
 			T pivot = array[left];
 			int i = left, j = right + 1;
 			for (;;) {
-				//move to the postion that bigger than ivot
+				//move to the position that bigger than pivot
 				while (i < right && array[++i].compareTo(pivot) < 0) {
 				}
 				// move to the position that smaller than pivot
